@@ -64,7 +64,7 @@ section {
 }
 
 .section-bg {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .section-header {
@@ -78,7 +78,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
