@@ -18,9 +18,9 @@
 
 /* Colors */
 :root {
-  --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-default: #ff0000;
+  --color-primary: #ffbb00;
+  --color-secondary: #0000ff;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #005255;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: #000000;
 }
 
 .section-header {
@@ -78,7 +78,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: #000000;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -99,7 +99,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: rgba(55, 55, 63, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   margin-top: 90px;
 }
 
@@ -131,7 +131,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #676775;
+  color: #000000;
   content: "/";
 }
 
@@ -194,7 +194,7 @@ section {
   inset: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
   transition: all 0.6s ease-out;
   width: 100%;
   height: 100vh;
@@ -264,7 +264,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #fff;
+  background: #000000;
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
@@ -302,7 +302,7 @@ section {
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
   font-size: 14px;
-  color: #fff;
+  color: #000000;
   background: var(--color-primary);
   padding: 8px 20px;
   margin-left: 30px;
@@ -312,7 +312,7 @@ section {
 
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
-  color: #fff;
+  color: #000000;
   background: rgba(206, 18, 18, 0.8);
 }
 
