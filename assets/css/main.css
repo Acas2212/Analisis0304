@@ -264,7 +264,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #000000;
+  background: #dbee97;     /* #navbar; */
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
